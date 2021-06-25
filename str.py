@@ -18,7 +18,7 @@ def main():
     transferData = TransferData(access_token)
 
     file_from = input('Enter file path to transfer : ')
-    file_to = "/test/"
+    file_to = "/test_proj101/"
 
     transferData.upload_file(file_from,file_to)
     print('Files Have Been Moved')
